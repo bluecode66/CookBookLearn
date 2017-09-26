@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\CookBookLearn.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D318AB2F-56BA-4A19-8121-B24C44701A2A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CookBookLearn.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CookBookLearnEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{88172438-17A8-4379-9587-56A9E752F621}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\CookBookLearn">
+			<UniqueIdentifier>{A0CBE313-611C-4FBA-AC5A-57225EBD3AD0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CookBookLearn\CookBookLearn.Build.cs">
+			<Filter>Source\CookBookLearn</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\CookBookLearn\CookBookLearn.cpp">
+			<Filter>Source\CookBookLearn</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CookBookLearn\CookBookLearn.h">
+			<Filter>Source\CookBookLearn</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CookBookLearn\MyActor.cpp">
+			<Filter>Source\CookBookLearn</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CookBookLearn\MyActor.h">
+			<Filter>Source\CookBookLearn</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CookBookLearn\MyClass.cpp">
+			<Filter>Source\CookBookLearn</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CookBookLearn\MyClass.h">
+			<Filter>Source\CookBookLearn</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
